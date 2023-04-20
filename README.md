@@ -1,6 +1,8 @@
-# Test git hub
+#endpoint details
 /productCatalog - will give all the product details
+
 /orders - lists all the orders placed 
+
 /placeOrder - endpoint used to place a new order 
    example request: 
    {
@@ -23,6 +25,7 @@
         }
     ]
 }
+
 /updateOrderStatus - to update order status to Placed/Dispatched/Completed/Cancelled
 example request:
 {
